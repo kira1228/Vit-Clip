@@ -1,1 +1,1 @@
-This is the implementation of a CLIP-based ViT rep
+This is the implementation of a CLIP-based ViT repo
