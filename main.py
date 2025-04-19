@@ -11,4 +11,6 @@ class Model(nn.Module):
 
     def forward(self, x):
         x = F.relu(self.conv1(x))
-        return F.relu(self.conv2(x))
+        x = self.conv2d(x)
+        x = F.relu(x)
+        return x
