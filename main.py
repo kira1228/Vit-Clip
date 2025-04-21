@@ -1,6 +1,6 @@
 # Initial python script
 import torch.nn as nn
-import torch.nn.functional as F
+import torch.nn.functional
 
 class Model(nn.Module):
     def __init__(self) -> None:
